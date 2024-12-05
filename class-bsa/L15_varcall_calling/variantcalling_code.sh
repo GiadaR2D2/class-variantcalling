@@ -9,7 +9,7 @@ cd analysis/variants
 ## first single sample discovery
 
 gatk --java-options "-Xmx4g" HaplotypeCaller  \
-   -R /workspaces/class-variantcalling/dataset_tutoring_resequencing02/sequence/Homo_sapiens_assembly38_chr21.fasta \
+   -R /workspaces/class-variantcalling/datasets_reference_only/sequence/Homo_sapiens_assembly38_chr21.fasta \
    -I /workspaces/class-variantcalling/analysis/alignment/normal_recal.bam \
    -O normal.g.vcf.gz \
    -ERC GVCF

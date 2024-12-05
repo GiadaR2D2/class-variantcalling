@@ -19,7 +19,7 @@ bwa mem \
 /workspaces/class-variantcalling/datasets_reference_only/sequence/Homo_sapiens_assembly38_chr21.fasta \
 /workspaces/class-variantcalling/analysis/raw_data/normal_1.000+disease_0.000_1.fq.gz \
 /workspaces/class-variantcalling/analysis/raw_data/normal_1.000+disease_0.000_2.fq.gz \
-| samtools view -@ 8 -bhS -o normal.bam -
+| samtools view -@ 2 -bhS -o normal.bam -
 
 ## Real time: 176.099 sec; CPU: 256.669 sec
 
